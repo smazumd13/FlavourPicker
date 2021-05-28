@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A639C342660D544005324A2 /* FlavourPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A639C322660D544005324A2 /* FlavourPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A639C4F2660D80A005324A2 /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A639C412660D80A005324A2 /* PickFlavorViewController.swift */; };
+		2A639C502660D80A005324A2 /* PickFlavorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A639C422660D80A005324A2 /* PickFlavorDataSource.swift */; };
+		2A639C512660D80A005324A2 /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A639C442660D80A005324A2 /* RGBAColorFromString.swift */; };
+		2A639C522660D80A005324A2 /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A639C462660D80A005324A2 /* Flavor.swift */; };
+		2A639C532660D80A005324A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A639C482660D80A005324A2 /* Images.xcassets */; };
+		2A639C542660D80A005324A2 /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A639C4A2660D80A005324A2 /* ScoopCell.swift */; };
+		2A639C552660D80A005324A2 /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A639C4B2660D80A005324A2 /* ScoopView.swift */; };
+		2A639C562660D80A005324A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A639C4C2660D80A005324A2 /* Main.storyboard */; };
+		2A639C572660D80A005324A2 /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A639C4E2660D80A005324A2 /* IceCreamView.swift */; };
+		2BC7F8334E88595838EFD7B1 /* libPods-FlavourPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEA651D77ED285BB584CE08 /* libPods-FlavourPicker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C33A3B1A1992173991B8827 /* Pods-FlavourPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourPicker.debug.xcconfig"; path = "Target Support Files/Pods-FlavourPicker/Pods-FlavourPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		2A639C2F2660D544005324A2 /* FlavourPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlavourPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A639C322660D544005324A2 /* FlavourPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlavourPicker.h; sourceTree = "<group>"; };
+		2A639C332660D544005324A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A639C412660D80A005324A2 /* PickFlavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorViewController.swift; sourceTree = "<group>"; };
+		2A639C422660D80A005324A2 /* PickFlavorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorDataSource.swift; sourceTree = "<group>"; };
+		2A639C442660D80A005324A2 /* RGBAColorFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColorFromString.swift; sourceTree = "<group>"; };
+		2A639C462660D80A005324A2 /* Flavor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
+		2A639C482660D80A005324A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A639C4A2660D80A005324A2 /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
+		2A639C4B2660D80A005324A2 /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
+		2A639C4D2660D80A005324A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A639C4E2660D80A005324A2 /* IceCreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamView.swift; sourceTree = "<group>"; };
+		4AEA651D77ED285BB584CE08 /* libPods-FlavourPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlavourPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62155FA31310112DCAF78CD3 /* Pods-FlavourPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavourPicker.release.xcconfig"; path = "Target Support Files/Pods-FlavourPicker/Pods-FlavourPicker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A639C2C2660D544005324A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC7F8334E88595838EFD7B1 /* libPods-FlavourPicker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194B180A0DC2D17D7F8E0DF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AEA651D77ED285BB584CE08 /* libPods-FlavourPicker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22179DFBE26E196BE239E2B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C33A3B1A1992173991B8827 /* Pods-FlavourPicker.debug.xcconfig */,
+				62155FA31310112DCAF78CD3 /* Pods-FlavourPicker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A639C252660D544005324A2 = {
+			isa = PBXGroup;
+			children = (
+				2A639C312660D544005324A2 /* FlavourPicker */,
+				2A639C302660D544005324A2 /* Products */,
+				22179DFBE26E196BE239E2B9 /* Pods */,
+				194B180A0DC2D17D7F8E0DF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A639C302660D544005324A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A639C2F2660D544005324A2 /* FlavourPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A639C312660D544005324A2 /* FlavourPicker */ = {
+			isa = PBXGroup;
+			children = (
+				2A639C432660D80A005324A2 /* Categories */,
+				2A639C402660D80A005324A2 /* Controllers */,
+				2A639C452660D80A005324A2 /* Models */,
+				2A639C472660D80A005324A2 /* Resources */,
+				2A639C492660D80A005324A2 /* Views */,
+				2A639C322660D544005324A2 /* FlavourPicker.h */,
+				2A639C332660D544005324A2 /* Info.plist */,
+			);
+			path = FlavourPicker;
+			sourceTree = "<group>";
+		};
+		2A639C402660D80A005324A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A639C412660D80A005324A2 /* PickFlavorViewController.swift */,
+				2A639C422660D80A005324A2 /* PickFlavorDataSource.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2A639C432660D80A005324A2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2A639C442660D80A005324A2 /* RGBAColorFromString.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2A639C452660D80A005324A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A639C462660D80A005324A2 /* Flavor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A639C472660D80A005324A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A639C482660D80A005324A2 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A639C492660D80A005324A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A639C4A2660D80A005324A2 /* ScoopCell.swift */,
+				2A639C4B2660D80A005324A2 /* ScoopView.swift */,
+				2A639C4C2660D80A005324A2 /* Main.storyboard */,
+				2A639C4E2660D80A005324A2 /* IceCreamView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A639C2A2660D544005324A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A639C342660D544005324A2 /* FlavourPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A639C2E2660D544005324A2 /* FlavourPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A639C372660D544005324A2 /* Build configuration list for PBXNativeTarget "FlavourPicker" */;
+			buildPhases = (
+				220A037A49508F8DB33D7CD3 /* [CP] Check Pods Manifest.lock */,
+				2A639C2A2660D544005324A2 /* Headers */,
+				2A639C2B2660D544005324A2 /* Sources */,
+				2A639C2C2660D544005324A2 /* Frameworks */,
+				2A639C2D2660D544005324A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlavourPicker;
+			productName = FlavourPicker;
+			productReference = 2A639C2F2660D544005324A2 /* FlavourPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A639C262660D544005324A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2A639C2E2660D544005324A2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 2A639C292660D544005324A2 /* Build configuration list for PBXProject "FlavourPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A639C252660D544005324A2;
+			productRefGroup = 2A639C302660D544005324A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A639C2E2660D544005324A2 /* FlavourPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A639C2D2660D544005324A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A639C532660D80A005324A2 /* Images.xcassets in Resources */,
+				2A639C562660D80A005324A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220A037A49508F8DB33D7CD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlavourPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A639C2B2660D544005324A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A639C4F2660D80A005324A2 /* PickFlavorViewController.swift in Sources */,
+				2A639C522660D80A005324A2 /* Flavor.swift in Sources */,
+				2A639C502660D80A005324A2 /* PickFlavorDataSource.swift in Sources */,
+				2A639C572660D80A005324A2 /* IceCreamView.swift in Sources */,
+				2A639C512660D80A005324A2 /* RGBAColorFromString.swift in Sources */,
+				2A639C542660D80A005324A2 /* ScoopCell.swift in Sources */,
+				2A639C552660D80A005324A2 /* ScoopView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A639C4C2660D80A005324A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A639C4D2660D80A005324A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A639C352660D544005324A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A639C362660D544005324A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A639C382660D544005324A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C33A3B1A1992173991B8827 /* Pods-FlavourPicker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FlavourPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taining.FlavourPicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A639C392660D544005324A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62155FA31310112DCAF78CD3 /* Pods-FlavourPicker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FlavourPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taining.FlavourPicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A639C292660D544005324A2 /* Build configuration list for PBXProject "FlavourPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A639C352660D544005324A2 /* Debug */,
+				2A639C362660D544005324A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A639C372660D544005324A2 /* Build configuration list for PBXNativeTarget "FlavourPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A639C382660D544005324A2 /* Debug */,
+				2A639C392660D544005324A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A639C262660D544005324A2 /* Project object */;
+}

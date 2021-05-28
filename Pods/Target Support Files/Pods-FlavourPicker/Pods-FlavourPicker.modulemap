@@ -1,0 +1,6 @@
+module Pods_FlavourPicker {
+  umbrella header "Pods-FlavourPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
